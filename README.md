@@ -1,12 +1,21 @@
 Vagrantfile
 ===========
 
-本配置文件采用官方的 box 镜像 `ubuntu/trusty64`，使用前先运行 `vagrant box add ubuntu/trusty64` 进行添加。
+利用vagrant创建统一开发环境 示例Centos7和Ubuntu16两种系统的配置文件 
 
 文件说明：
 
 * `Vagrantfile`：Vagrant 的配置文件
 * `bootstrap.sh`：镜像初始化后自动运行的脚本
-* `sources.list.mirror`：源镜像服务器
 
-环境版本：`Vagrant 1.8.*`, `VirtualBox 5.0.*`
+
+###常用命令
+```
+$ vagrant init     # 初始化
+$ vagrant up       # 启动虚拟机
+$ vagrant halt     # 关闭虚拟机
+$ vagrant reload   # 重启虚拟机
+$ vagrant ssh      # SSH 至虚拟机
+$ vagrant status   # 查看虚拟机运行状态
+$ vagrant destroy  # 销毁当前虚拟机
+```
