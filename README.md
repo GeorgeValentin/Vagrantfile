@@ -9,7 +9,7 @@ Vagrantfile
 * `bootstrap.sh`：镜像初始化后自动运行的脚本
 
 
-###常用命令
+### 常用命令
 ```
 $ vagrant init     # 初始化
 $ vagrant up       # 启动虚拟机
