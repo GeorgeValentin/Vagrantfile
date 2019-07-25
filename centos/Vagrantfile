@@ -74,4 +74,8 @@ Vagrant.configure("2") do |config|
   #   apt-get install -y apache2
   # SHELL
   config.vm.provision :shell, path: "bootstrap.sh"
+  
+  config.vbguest.auto_update = false
+  config.vbguest.no_remote = true
+  config.vbguest.no_install = true
 end
